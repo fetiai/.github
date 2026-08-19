@@ -17,9 +17,11 @@ Group 16 — two projects in search, optimization, and classification.
 
 ---
 
+# Projects
+
 ## Magic Cube Solver
 
-[![The Magic Cube Solver replaying a search](https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/magic-cube.webp)](https://fetiai.github.io/magic-cube/)
+[![The Magic Cube Solver replaying a search](assets/magic-cube.webp)](https://fetiai.github.io/magic-cube/)
 
 Six search algorithms racing a 5×5×5 diagonal magic cube — replayed move by move.
 
@@ -41,14 +43,14 @@ animating it.
 **Built with**
 
 <p>
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/go.svg" width="18" height="18" align="top" alt="" /> Go &nbsp;
+  <img src="assets/logos/go.svg" width="18" height="18" align="top" alt="" /> Go &nbsp;
   Fiber &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/svelte.svg" width="18" height="18" align="top" alt="" /> SvelteKit &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/threejs.svg" width="18" height="18" align="top" alt="" /> Three.js &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/chartjs.svg" width="18" height="18" align="top" alt="" /> Chart.js &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/tailwind.svg" width="18" height="18" align="top" alt="" /> Tailwind &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/vite.svg" width="18" height="18" align="top" alt="" /> Vite &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/docker.svg" width="18" height="18" align="top" alt="" /> Docker
+  <img src="assets/logos/svelte.svg" width="18" height="18" align="top" alt="" /> SvelteKit &nbsp;
+  <img src="assets/logos/threejs.svg" width="18" height="18" align="top" alt="" /> Three.js &nbsp;
+  <img src="assets/logos/chartjs.svg" width="18" height="18" align="top" alt="" /> Chart.js &nbsp;
+  <img src="assets/logos/tailwind.svg" width="18" height="18" align="top" alt="" /> Tailwind &nbsp;
+  <img src="assets/logos/vite.svg" width="18" height="18" align="top" alt="" /> Vite &nbsp;
+  <img src="assets/logos/docker.svg" width="18" height="18" align="top" alt="" /> Docker
 </p>
 
 **Links** — [Live demo](https://fetiai.github.io/magic-cube/) ·
@@ -58,16 +60,18 @@ animating it.
 
 ---
 
-## PhishGuard
+## Phishing URL Classifier
 
-[![PhishGuard classifying a URL](https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/phishguard.webp)](https://phiusiil.faizath.com)
+[![The classifier scoring a URL against four models](assets/phishing-url-classifier.webp)](https://phiusiil.faizath.com)
 
-Phishing URL classifier — KNN and Naive Bayes, each written twice.
+Two algorithms, each written twice — and the baseline that keeps them honest.
 
-Trained on the UCI PhiUSIIL dataset: 140,404 URLs, 49 features, 7.5% phishing.
-The pipeline runs EDA, missing-value handling, outlier treatment, feature
-engineering, scaling and SMOTE. KNN and Gaussian Naive Bayes are each implemented
-from scratch and with scikit-learn, so the pair can be compared directly.
+The UCI PhiUSIIL corpus runs 140,404 URLs deep and only 7.5% of it is hostile —
+which is exactly why accuracy flatters here and recall does the real work. KNN and
+Gaussian Naive Bayes are each built twice across its 49 features, once from scratch
+and once from scikit-learn, so every number has a reference to answer to. Around
+them the pipeline runs EDA, missing-value handling, outlier treatment, feature
+engineering, scaling and SMOTE.
 
 Dataset: [UCI PhiUSIIL Phishing URL Dataset](https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset)
 (repository ID 967). Class 0 is phishing and is the positive class throughout.
@@ -101,14 +105,14 @@ none is claimed.
 **Built with**
 
 <p>
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/python.svg" width="18" height="18" align="top" alt="" /> Python &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/scikit-learn.svg" width="18" height="18" align="top" alt="" /> scikit-learn &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/numpy.svg" width="18" height="18" align="top" alt="" /> NumPy &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/pandas.svg" width="18" height="18" align="top" alt="" /> pandas &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/scipy.svg" width="18" height="18" align="top" alt="" /> SciPy &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/streamlit.svg" width="18" height="18" align="top" alt="" /> Streamlit &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/jupyter.svg" width="18" height="18" align="top" alt="" /> Jupyter &nbsp;
-  <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/logos/docker.svg" width="18" height="18" align="top" alt="" /> Docker
+  <img src="assets/logos/python.svg" width="18" height="18" align="top" alt="" /> Python &nbsp;
+  <img src="assets/logos/scikit-learn.svg" width="18" height="18" align="top" alt="" /> scikit-learn &nbsp;
+  <img src="assets/logos/numpy.svg" width="18" height="18" align="top" alt="" /> NumPy &nbsp;
+  <img src="assets/logos/pandas.svg" width="18" height="18" align="top" alt="" /> pandas &nbsp;
+  <img src="assets/logos/scipy.svg" width="18" height="18" align="top" alt="" /> SciPy &nbsp;
+  <img src="assets/logos/streamlit.svg" width="18" height="18" align="top" alt="" /> Streamlit &nbsp;
+  <img src="assets/logos/jupyter.svg" width="18" height="18" align="top" alt="" /> Jupyter &nbsp;
+  <img src="assets/logos/docker.svg" width="18" height="18" align="top" alt="" /> Docker
 </p>
 
 **Links** — [Live demo](https://phiusiil.faizath.com) ·
@@ -132,12 +136,12 @@ none is claimed.
       18222023
       <br /><br />
       <a href="https://github.com/thalitazhrr">
-        <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/github.svg" width="14" height="14" alt="" />
+        <img src="assets/github.svg" width="14" height="14" alt="" />
         thalitazhrr
       </a>
       <br />
       <a href="https://www.linkedin.com/in/thalitazahras/">
-        <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/linkedin.svg" width="14" height="14" alt="" />
+        <img src="assets/linkedin.svg" width="14" height="14" alt="" />
         thalitazahras
       </a>
     </td>
@@ -150,12 +154,12 @@ none is claimed.
       18222056
       <br /><br />
       <a href="https://github.com/IrfanMusthofa">
-        <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/github.svg" width="14" height="14" alt="" />
+        <img src="assets/github.svg" width="14" height="14" alt="" />
         IrfanMusthofa
       </a>
       <br />
       <a href="https://www.linkedin.com/in/irfanmusthofa/">
-        <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/linkedin.svg" width="14" height="14" alt="" />
+        <img src="assets/linkedin.svg" width="14" height="14" alt="" />
         irfanmusthofa
       </a>
     </td>
@@ -168,12 +172,12 @@ none is claimed.
       18222059
       <br /><br />
       <a href="https://github.com/EleanorCordelia">
-        <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/github.svg" width="14" height="14" alt="" />
+        <img src="assets/github.svg" width="14" height="14" alt="" />
         EleanorCordelia
       </a>
       <br />
       <a href="https://www.linkedin.com/in/eleanorcordelia/">
-        <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/linkedin.svg" width="14" height="14" alt="" />
+        <img src="assets/linkedin.svg" width="14" height="14" alt="" />
         eleanorcordelia
       </a>
     </td>
@@ -186,12 +190,12 @@ none is claimed.
       18222063
       <br /><br />
       <a href="https://github.com/faizath">
-        <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/github.svg" width="14" height="14" alt="" />
+        <img src="assets/github.svg" width="14" height="14" alt="" />
         faizath
       </a>
       <br />
       <a href="https://www.linkedin.com/in/faizath/">
-        <img src="https://raw.githubusercontent.com/fetiai/.github/master/profile/assets/linkedin.svg" width="14" height="14" alt="" />
+        <img src="assets/linkedin.svg" width="14" height="14" alt="" />
         faizath
       </a>
     </td>
